@@ -2,7 +2,7 @@
 /*
 Plugin Name: Password Change Notification
 Plugin URI: http://dessibelle.se
-Description: A WordPress plugin for sending email notifications when passwords change
+Description: A WordPress plugin for sending users an email notifications when their password changes
 Author: Simon Fransson
 Version: 1.0b1
 Author URI: http://dessibelle.se
