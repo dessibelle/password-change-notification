@@ -21,7 +21,7 @@ class PasswordChangeNotification {
         
         // let's add an extra field to the user edit page to enble or disable notifications
         add_action( 'show_user_profile', array( __CLASS__, 'enable_notification' ), 5 );	
-		add_action( 'edit_user_profile', array( __CLASS__, 'enable_notification' ), 5 );
+        add_action( 'edit_user_profile', array( __CLASS__, 'enable_notification' ), 5 );
         
     }
 
