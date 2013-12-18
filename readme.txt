@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: chokladzingo
+Contributors: chokladzingo, rtweedie
 Donate link: http://dessibelle.se/
 Tags: password, change, email, notification
 Requires at least: 2.7
