@@ -1,27 +1,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Password Change Notification\n"
-"POT-Creation-Date: 2013-03-06 11:09+0100\n"
-"PO-Revision-Date: 2013-03-06 11:10+0100\n"
+"POT-Creation-Date: 2013-12-19 08:57+0100\n"
+"PO-Revision-Date: 2013-12-19 08:58+0100\n"
 "Last-Translator: Simon Fransson <simon@dessibelle.se>\n"
 "Language-Team: Simon Fransson <simon@dessibelle.se>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: __;_e;_x;_x:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: password-change-notification.php:52
+#: password-change-notification.php:65
 #, php-format
 msgid "New password for %s"
 msgstr "Nytt lösenord för %s"
 
-#: password-change-notification.php:53
+#: password-change-notification.php:66
 #, php-format
 msgid ""
 "Hi %s,\n"
@@ -39,3 +39,15 @@ msgstr ""
 "%s\n"
 "\n"
 "För att logga in, gå till %s."
+
+#: password-change-notification.php:88 password-change-notification.php:89
+msgid "Notify user of password change"
+msgstr "Skicka e-postnotis när lösenordet ändras"
+
+#: password-change-notification.php:91
+msgid "Yes"
+msgstr "Ja"
+
+#: password-change-notification.php:92
+msgid "No"
+msgstr "Nej"
