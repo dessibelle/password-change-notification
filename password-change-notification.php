@@ -42,8 +42,8 @@ class PasswordChangeNotification {
         $send_notification = isset( $_POST[self::PASSWORD_CHANGE_NOTIFICATION_KEY] ) && $_POST[self::PASSWORD_CHANGE_NOTIFICATION_KEY] == 1;
         update_user_meta($user_id, self::PASSWORD_CHANGE_NOTIFICATION_KEY, intval($send_notification));
 
-        $name = apply_filters('pwcn_to_name', implode(" ", array_filter(array($_POST['first_name'], $_POST['last_name']))));
-        $email = $to = apply_filters('pwcn_to_email', $_POST['email'], $user_id);;
+        $name = apply_filters('pwcn_to_name', implode(" ", array_filter(array($_POST['first_name'], $_POST['last_name']))), $user_id);
+        $email = $to = apply_filters('pwcn_to_email', $_POST['email'], $user_id);
         $password = $_POST['pass1'];
 
         if (self::should_notify_user($user_id) && !empty($password) && $send_notification == true) {
@@ -74,7 +74,7 @@ class PasswordChangeNotification {
         $notifications_active = get_user_meta( $user_id, self::PASSWORD_CHANGE_NOTIFICATION_KEY, true );
 
         if ($notifications_active === '') {
-            return apply_filters( 'pwcn_notification_default_value', true, $user_id );
+            return apply_filters('pwcn_notification_default_value', true, $user_id);
         }
 
         return (boolean)$notifications_active;
