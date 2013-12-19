@@ -4,7 +4,7 @@ Donate link: http://dessibelle.se/
 Tags: password, change, email, notification
 Requires at least: 2.7
 Tested up to: 3.8
-Stable tag: 1.0b1
+Stable tag: 1.0b2
 
 A WordPress plugin for sending users an email notification when their password changes
 
